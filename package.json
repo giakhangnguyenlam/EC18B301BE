@@ -1,0 +1,39 @@
+{
+  "name": "ute2.21-ec18b301-be",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lvminh/UTE2.21-EC18B301-BE.git"
+  },
+  "author": "Duong Dat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lvminh/UTE2.21-EC18B301-BE/issues"
+  },
+  "homepage": "https://github.com/lvminh/UTE2.21-EC18B301-BE#readme",
+  "dependencies": {
+    "@types/mongoose-sequence": "^3.0.5",
+    "bcrypt": "^5.0.1",
+    "connect-mongo": "^4.4.1",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "express-validator": "^6.10.0",
+    "moment": "^2.29.1",
+    "mongoose": "^5.12.3",
+    "mongoose-auto-increment": "^5.0.1",
+    "mongoose-beautiful-unique-validation": "^7.1.1",
+    "passport": "^0.4.1",
+    "passport-auth0": "^1.4.0",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
